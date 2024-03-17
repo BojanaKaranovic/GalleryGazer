@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darker_gray">#555</color>
+    <color name="footer_light_grey">#FFFAFAFA</color>
+    <color name="footer_medium_grey">#FFEEEEEE</color>
+    <item name="unitySurfaceView" type="id"/>
+    <string name="FreeformWindowOrientation_landscape"/>
+    <string name="FreeformWindowOrientation_portrait"/>
+    <string name="FreeformWindowSize_maximize"/>
+    <string name="FreeformWindowSize_phone"/>
+    <string name="FreeformWindowSize_tablet"/>
+    <string name="app_name">MobileGallery</string>
+    <string description="Text shown on bottom of QR code capture activity to indicate SKIP button                          presence. [CHAR_LIMIT=30]" name="cannot_find_symbol">
+            Can\'t find this symbol?</string>
+    <string description="Text shown when a connection error occurs when retrieving the QR Code                          content. [CHAR_LIMIT=30]" name="connection_error">
+            Connection error</string>
+    <string name="game_view_content_description">Game view</string>
+    <string description="Headset detection activity title. [CHAR_LIMIT=30]" name="headset_detection_activity_title">
+            HeadsetDetector</string>
+    <string description="Text shown when an invalid QR code is scanned. [CHAR_LIMIT=30]" name="invalid_qr_code">
+            Invalid QR Code</string>
+    <string description="Text shown when dependencies are not available to scan QR Codes.                          [CHAR_LIMIT=40]" name="missing_dependencies">
+            QR Code detector dependency missing</string>
+    <string description="Text shown on Android Toast when camera permission is not granted.                          [CHAR_LIMIT=70]" name="no_camera_permission">
+            Camera permission is not granted and is needed to read QR codes</string>
+    <string description="Text shown on Android Toast when permissions are not granted.                          [CHAR_LIMIT=140]" name="no_permissions">
+            Cardboard SDK requires camera and write to external storage permission to read the QR code and save the encoded device parameters.</string>
+    <string description="Text shown on bottom of QR code capture activity to indicate instructions                          to read QR code. [CHAR_LIMIT=50]" name="reading_qr_code_instructions">
+            Find this Cardboard symbol on your viewer</string>
+    <string description="Text shown for button to skip the workflow to pair a Cardboard view with                          the user&apos;s phone. [CHAR_LIMIT=10]" name="skip_scanning">
+            SKIP</string>
+    <string description="QrCodeCapture activity title. [CHAR_LIMIT=30]" name="title_activity_qr_code_capture">
+            QrCodeCapture</string>
+    <string description="Text shown when a device with NFC tag is detected [CHAR_LIMIT=30]" name="viewer_detected">
+            Viewer detected</string>
+    <style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+</style>
+    <style name="UnityThemeSelector" parent="BaseUnityTheme">
+	<item name="android:windowBackground">@android:color/black</item>
+</style>
+    <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+    <style name="text_14sp_sans_serif_medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="text_16sp_sans_serif">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="vertical_divider">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+</resources>

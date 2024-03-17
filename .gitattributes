@@ -1,0 +1,7 @@
+Mobile/Library/PackageCache/com.google.xr.cardboard@0d822d2031/Runtime/iOS/GfxPluginCardboard.a filter=lfs diff=lfs merge=lfs -text
+Mobile/Assets/Materials/gramaphoneMaterials/gram_Normal_OpenGL_1001.png filter=lfs diff=lfs merge=lfs -text
+Mobile/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/outputs/apk/release/launcher-release.apk filter=lfs diff=lfs merge=lfs -text
+Mobile/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so filter=lfs diff=lfs merge=lfs -text
+Mobile/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar filter=lfs diff=lfs merge=lfs -text
+Mobile/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.dbg.so filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
